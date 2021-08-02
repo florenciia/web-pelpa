@@ -1,0 +1,1919 @@
+@import url('http://fonts.cdnfonts.com/css/futura-md-bt?styles=17516,17517,17515');
+
+
+/*BOTON FLOTANTE*/
+.btn-flotante {
+    font-size: 15px; /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase; /* Texto en mayusculas */
+    font-weight: bold; /* Fuente en negrita o bold */
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Borde del boton */
+    letter-spacing: 2px; /* Espacio entre letras */
+    background-color: teal; /* Color de fondo */
+    padding: 5px 25px; /* Relleno del boton */
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.btn-flotante:hover {
+    background-color: #000000; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 5px 5px teal;
+    transform: translateY(-7px);
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+
+}
+
+
+
+/* Icons */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;500&display=swap');
+
+.icons{
+    margin-top: 10px ;
+    margin-bottom: 100px;
+
+}
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul.icons li {
+        display: inline-block;
+        padding-left: 0.75em;
+    }
+
+    ul.icons a {
+        -moz-transition: background-color 0.25s ease-in-out;
+        -webkit-transition: background-color 0.25s ease-in-out;
+        -ms-transition: background-color 0.25s ease-in-out;
+        transition: background-color 0.25s ease-in-out;
+        display: inline-block;
+        width: 55px;
+        height: 50px;
+        line-height: 2.8em;
+        text-align: center;
+        border: 0;
+        box-shadow: inset 10px 0 15px 2px teal;
+        border-radius: 100%;
+        color: #ffffff;
+    }
+
+        ul.icons a:hover {
+            color: #fD5901;
+            background-color: teal;   
+        }
+
+        .iconsfinal{
+            margin-top: 0px;
+        }
+
+body{
+    background-color: black;
+    font-family: 'Futura Md BT', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.imgfondo{
+    width: 100%;
+    height: 890px;
+}
+
+.navbar{
+    background-color: black;
+    color: #ffffff;
+}
+.navbar-brand{
+    font-size: 50px;
+    margin-left: 25px;
+}
+.nav-link{
+    font-size: 30px;
+    margin-top: 0px;
+
+}
+.nav-link:hover{
+    box-shadow: inset 15px 2px 10px 5px teal;
+    color: #fD5901;
+    border-radius: 30px;
+}
+.idioma{
+    font-size: 20px;
+    margin-left: 950px;
+    margin-top: 0px;
+}
+.idiomados{
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.section-videos{
+    margin-top: 200px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+}
+.videoprincipal{
+    width: 90%;
+    height: 510px;
+}
+
+.videos{
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.videos p{
+    margin-bottom: 30px;
+}
+
+.minivideos222{
+    margin-top: 55px;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 200px;
+    background-color: transparent;
+    box-shadow: inset 5px 0 15px 2px teal;
+    color: #ffffff;
+}
+.btn:hover{
+    border: 2px solid teal;
+    background-color: #fD5901;
+}
+
+.btn-up{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    padding: 1px;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 5px 5px teal;
+    margin-top: 0px;
+
+}
+
+.seccion-musica{
+    margin-top: 190px;
+}
+.seccion-musica h1{
+    font-size: 60px;
+}
+.seccion-musica p{
+    font-size: 30px;
+}
+
+.albums{
+    margin-top: 100px;
+}
+
+.albums p{
+    margin-top: 40px;
+    font-size: 30px;
+}
+.albums a{
+    color: white;
+    text-decoration: none;
+}
+
+.imagenestemasal{
+    width: 275px;
+    border-radius: 2%;
+    margin-top: -25px;
+}
+.seccionTRES2{
+    margin-top: 210px;
+    margin-bottom: 75px;
+
+}
+.seccionTRES2 p{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+h2{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.imagenestemas{
+    width: 240px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0px 0px;
+
+}
+.imagenestemas:hover{
+    transform:translate3d(6px);
+
+}
+.spotify{
+    width: 240px;
+    height: 80px;
+    margin-bottom: 40px;
+    border-radius: 0px 0px 5px 5px;
+}
+.seccionalch{
+    margin-top: 75px;
+    font-size: 15px;
+    margin-bottom: 75px;
+
+
+}
+.seccionalch p{
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.dreamer{
+    margin-top: 0px;
+}
+
+.seccionchem{
+    margin-top: 75px;
+    margin-bottom: 75px;
+
+    
+}
+.seccionchem h2{
+    font-size: 35px;
+}
+.seccionchem p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.secciongreed{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.secciongreed p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.secciongreed h2{
+    font-size: 35px;
+}
+
+.seccionartistas{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.seccionartistas h1{
+    font-size: 60px;
+}
+.seccionartistas p{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.imagenesartistas{
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+.imagenesartistaslogo{
+    width: 300px;
+    margin-top: 100px;
+}
+.btn-art{
+    width: 50%;
+    background-color: transparent;
+    margin-top: 50px;
+    border-radius: 2%;
+    font-size: 25px;
+}
+.bio h1{
+    margin-top: 175px;
+    font-size: 60px;
+
+}
+.bio p{
+    font-size: 20px;
+}
+.imgbio{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.contacto{
+    margin-top: -80px;
+}
+.titulo{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.seccioncontacto{
+    background-color: transparent;
+    border: 3px solid teal;
+    width: 600px;
+    height: 50px;
+    margin-left: 0;
+
+}
+.mensaje{
+    margin-left: 10px;
+    width: 600px;
+    height: 50px;
+}
+.seccioncontacto:hover{
+    cursor: pointer;
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 2200px) {
+    /*BOTON FLOTANTE*/
+    .btn-flotante {
+        font-size: 20px; /* Cambiar el tamaño de la tipografia */
+        text-transform: uppercase; /* Texto en mayusculas */
+        font-weight: bold; /* Fuente en negrita o bold */
+        color: #ffffff; /* Color del texto */
+        border-radius: 5px; /* Borde del boton */
+        letter-spacing: 2px; /* Espacio entre letras */
+        background-color: teal; /* Color de fondo */
+        padding: 5px 5px; /* Relleno del boton */
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+    
+    .btn-flotante:hover {
+        background-color: #000000; /* Color de fondo al pasar el cursor */
+        box-shadow: 0px 5px 5px teal;
+        transform: translateY(-7px);
+        color: #ffffff;
+    }
+    a{
+        text-decoration: none;
+    
+    }
+    
+        .icons{
+            margin-top: -250px ;
+            margin-bottom: 100px;
+        }
+        ul.icons {
+            cursor: default;
+            list-style: none;
+            padding-left: 0;
+        }
+        
+            ul.icons li {
+                display: inline-block;
+                padding-left: 0.75em;
+            }
+        
+            ul.icons a {
+                -moz-transition: background-color 0.25s ease-in-out;
+                -webkit-transition: background-color 0.25s ease-in-out;
+                -ms-transition: background-color 0.25s ease-in-out;
+                transition: background-color 0.25s ease-in-out;
+                display: inline-block;
+                width: 40px;
+                height: 45px;
+                line-height: 2.8em;
+                text-align: center;
+                border: 0;
+                box-shadow: inset 10px 0 15px 2px teal;
+                border-radius: 100%;
+                color: #ffffff;
+            }
+        
+                ul.icons a:hover {
+                    color: #fD5901;
+                    background-color: teal;   
+                }
+                .iconsfinal{
+                    margin-top: 10px;
+                }
+       
+    
+        body{
+            background-color: black;
+        }
+    
+        .imgfondo{
+            width: 100%;
+            height: auto;
+            background-size: cover !important;
+            margin-top: 150px;
+            margin-bottom: 250px;
+            
+    }
+    
+        .navbar{
+            background-color: black;
+            color: #ffffff;
+        }
+        .navbar-brand{
+            font-size: 50px;
+            margin-left: 0px;
+    
+        }
+        .nav-link{
+             font-size: 45px;
+             margin-top: 0px;
+    
+        }
+        .idioma{
+            font-size: 20px;
+            margin-left: 500px;
+            margin-top: 10px;
+        }
+        .idiomados{
+            font-size: 20px;
+            margin-left: -90px;
+            margin-top: 35px;
+        }
+        .section-videos{
+            margin-top: 0px;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+    
+        .videoprincipal{
+            width: 95%;
+            height: 300px;
+        }
+    
+        .videos{
+            margin-top: 0px;
+            color: #ffffff;
+            font-size: 25px;
+        }
+    
+        .videos p{
+            margin-bottom: 40px;
+        }
+        
+        .minivideos222{
+            margin-top: 20px;
+        }
+        
+        .btn{
+            width: 350px;
+            border: 2px solid teal;
+        }
+        .btn-up{
+            width: 60%;
+            height: 50px;
+            font-size: 25px;
+            padding: 1px;
+            background-color: transparent;
+            border: 3px solid teal;
+            margin-top: 100px;
+        }
+        .seccion-musica{
+            margin-top: 100px;
+        }
+        .seccion-musica h1{
+            font-size: 60px;
+        }
+        .seccion-musica p{
+            font-size: 40px;
+        }
+        .albums{
+            margin-top: 50px
+        }
+       
+        .albums p{
+            margin-top: 40px;
+            font-size: 35px;
+        }
+    
+        .imagenestemasal{
+            width: 300px;
+            border-radius: 25%;
+            margin-top: -20px;
+    
+        }
+        
+        .seccionTRES2{
+            margin-top: 100px;
+        }
+        .seccionTRES2 p{
+            margin-top: 70px;
+            font-size: 25px;
+    
+        }
+        h2{
+            margin-bottom: 5px;
+            font-size: 40px;
+        }
+        /*.imagenestemasal{
+            width: 130px;
+        }*/
+        .imagenestemas{
+            width: 225px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px 5px 0px 0px;
+        }
+        .imagenestemas:hover{
+            transform:translate3d(6px);
+        
+        }
+        .spotify{
+            width: 225px;
+            height: 72px;
+            margin-bottom: -50px;
+            border-radius: 0px 0px 5px 5px;
+        }
+        
+        .seccionalch{
+            margin-top: 100px;
+            
+        }
+        .seccionalch p{
+            margin-top: 70px;
+            font-size: 20px;
+    
+        }
+        .dreamer{
+            margin-top: 0px;
+        }
+    
+        .seccionchem{
+            margin-top: 100px;
+        }
+        .seccionchem h2{
+            font-size: 35px;
+        }
+        .seccionchem p{
+            margin-top: 60px;
+            font-size: 23px;
+        }
+       /* .ends{
+            margin-top: 0px;
+        }*/
+    
+        .secciongreed{
+            margin-top: 100px;
+            margin-bottom: 40px;
+        }
+        
+        .secciongreed p{
+            margin-top: 60px;
+            font-size: 20px;
+        }
+        
+        .secciongreed h2{
+            font-size: 35px;
+        }
+    
+        .seccionartistas{
+            margin-top: 100px;
+            margin-bottom: 75px;
+        }
+        .seccionartistas h1{
+            font-size: 60px;
+        }
+        .seccionartistas p{
+            margin-top: 20px;
+            font-size: 40px;
+        }
+        .imagenesartistas{
+            border-radius: 50%;
+            border: 2px solid #000000;
+            width: 375px;
+        }
+        .imagenesartistaslogo{
+            margin-top: 55px;
+            width: 375px;
+        }
+        .btn-art{
+            width: 55%;
+            background-color: transparent;
+            margin-top: 150px;
+            border-radius: 2%;
+            font-size: 25px;
+        }
+    
+        .bio h1{
+            margin-top: 100px;
+            font-size: 80px;
+        }
+        .bio p{
+            font-size: 30px;
+        }
+        .imgbio{
+            width: 100%;
+            margin-bottom: 100px;
+        }
+        .contacto{
+            margin-top: -40px;
+        }
+        .titulo{
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .seccioncontacto{
+            background-color: transparent;
+            border: 3px solid teal;
+            width: 600px;
+            height: 50px;
+            margin-left: 10%;
+        }
+        .mensaje{
+            margin-left: 12%;
+            width: 600px;
+            height: 50px;
+        }
+        .seccioncontacto:hover{
+            cursor: pointer;
+            background-color: #000000;
+        }
+        
+        
+        
+        
+        
+    }
+
+
+
+
+    
+@media (max-width: 1600px) {
+    /*BOTON FLOTANTE*/
+    .btn-flotante {
+        font-size: 20px; /* Cambiar el tamaño de la tipografia */
+        text-transform: uppercase; /* Texto en mayusculas */
+        font-weight: bold; /* Fuente en negrita o bold */
+        color: #ffffff; /* Color del texto */
+        border-radius: 5px; /* Borde del boton */
+        letter-spacing: 2px; /* Espacio entre letras */
+        background-color: teal; /* Color de fondo */
+        padding: 5px 5px; /* Relleno del boton */
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        transition: all 300ms ease 0ms;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        z-index: 99;
+    }
+    
+    .btn-flotante:hover {
+        background-color: #000000; /* Color de fondo al pasar el cursor */
+        box-shadow: 0px 5px 5px teal;
+        transform: translateY(-7px);
+        color: #ffffff;
+    }
+    a{
+        text-decoration: none;
+    
+    }
+    
+        .icons{
+            margin-top: -250px ;
+            margin-bottom: 100px;
+        }
+        ul.icons {
+            cursor: default;
+            list-style: none;
+            padding-left: 0;
+        }
+        
+            ul.icons li {
+                display: inline-block;
+                padding-left: 0.75em;
+            }
+        
+            ul.icons a {
+                -moz-transition: background-color 0.25s ease-in-out;
+                -webkit-transition: background-color 0.25s ease-in-out;
+                -ms-transition: background-color 0.25s ease-in-out;
+                transition: background-color 0.25s ease-in-out;
+                display: inline-block;
+                width: 40px;
+                height: 45px;
+                line-height: 2.8em;
+                text-align: center;
+                border: 0;
+                box-shadow: inset 10px 0 15px 2px teal;
+                border-radius: 100%;
+                color: #ffffff;
+            }
+        
+                ul.icons a:hover {
+                    color: #fD5901;
+                    background-color: teal;   
+                }
+                .iconsfinal{
+                    margin-top: 10px;
+                }
+       
+    
+        body{
+            background-color: black;
+        }
+    
+        .imgfondo{
+            width: 100%;
+            height: auto;
+            background-size: cover !important;
+            margin-top: 150px;
+            margin-bottom: 250px;
+            
+    }
+    
+        .navbar{
+            background-color: black;
+            color: #ffffff;
+        }
+        .navbar-brand{
+            font-size: 45px;
+            margin-left: 0px;
+    
+        }
+        .nav-link{
+             font-size: 35px;
+             margin-top: 0px;
+    
+        }
+        .idioma{
+            font-size: 20px;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        .idiomados{
+            font-size: 20px;
+            margin-left: -90px;
+            margin-top: 25px;
+        }
+        .section-videos{
+            margin-top: 0px;
+        }
+        h1{
+            color: white;
+            text-align: center;
+            font-size: 60px;
+        }
+    
+        .videoprincipal{
+            width: 85%;
+            height: 300px;
+        }
+    
+        .videos{
+            margin-top: 0px;
+            color: #ffffff;
+            font-size: 20px;
+        }
+    
+        .videos p{
+            margin-bottom: 30px;
+        }
+        
+        .minivideos222{
+            margin-top: 20px;
+        }
+        
+        .btn{
+            width: 200px;
+            border: 2px solid teal;
+        }
+        .btn-up{
+            width: 55%;
+            height: 35px;
+            font-size: 15px;
+            padding: 1px;
+            background-color: transparent;
+            border: 5px solid teal;
+            margin-top: 100px;
+        }
+        .seccion-musica{
+            margin-top: 100px;
+        }
+        .seccion-musica h1{
+            font-size: 60px;
+        }
+        .seccion-musica p{
+            font-size: 40px;
+        }
+        .albums{
+            margin-top: 50px
+        }
+       
+        .albums p{
+            margin-top: 40px;
+            font-size: 30px;
+        }
+    
+        .imagenestemasal{
+            width: 250px;
+            border-radius: 25%;
+            margin-top: -30px;
+    
+        }
+        
+        .seccionTRES2{
+            margin-top: 100px;
+        }
+        .seccionTRES2 p{
+            margin-top: 70px;
+            font-size: 20px;
+    
+        }
+        h2{
+            margin-bottom: 5px;
+            font-size: 40px;
+        }
+        /*.imagenestemasal{
+            width: 130px;
+        }*/
+        .imagenestemas{
+            width: 230px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 5px 5px 0px 0px;
+        }
+        .imagenestemas:hover{
+            transform:translate3d(6px);
+        
+        }
+        .spotify{
+            width: 230px;
+            height: 72px;
+            margin-bottom: -50px;
+            border-radius: 0px 0px 5px 5px;
+        }
+        
+        .seccionalch{
+            margin-top: 100px;
+            
+        }
+        .seccionalch p{
+            margin-top: 70px;
+            font-size: 20px;
+    
+        }
+        .dreamer{
+            margin-top: 0px;
+        }
+    
+        .seccionchem{
+            margin-top: 100px;
+        }
+        .seccionchem h2{
+            font-size: 35px;
+        }
+        .seccionchem p{
+            margin-top: 60px;
+            font-size: 20px;
+        }
+       /* .ends{
+            margin-top: 0px;
+        }*/
+    
+        .secciongreed{
+            margin-top: 100px;
+            margin-bottom: 40px;
+        }
+        
+        .secciongreed p{
+            margin-top: 60px;
+            font-size: 20px;
+        }
+        
+        .secciongreed h2{
+            font-size: 35px;
+        }
+    
+        .seccionartistas{
+            margin-top: 100px;
+            margin-bottom: 75px;
+        }
+        .seccionartistas h1{
+            font-size: 60px;
+        }
+        .seccionartistas p{
+            margin-top: 20px;
+            font-size: 40px;
+        }
+        .imagenesartistas{
+            border-radius: 50%;
+            border: 2px solid #000000;
+            width: 350px;
+        }
+        .imagenesartistaslogo{
+            margin-top: 55px;
+            width: 350px;
+        }
+        .btn-art{
+            width: 55%;
+            background-color: transparent;
+            margin-top: 150px;
+            border-radius: 2%;
+            font-size: 25px;
+        }
+    
+        .bio h1{
+            margin-top: 100px;
+            font-size: 70px;
+        }
+        .bio p{
+            font-size: 25px;
+        }
+        .imgbio{
+            width: 100%;
+            margin-bottom: 100px;
+        }
+        .contacto{
+            margin-top: -40px;
+        }
+        .titulo{
+            font-size: 25px;
+            margin-top: 10px;
+        }
+        .seccioncontacto{
+            background-color: transparent;
+            border: 3px solid teal;
+            width: 600px;
+            height: 50px;
+            margin-left: 5%;
+        }
+        .mensaje{
+            margin-left: 7%;
+            width: 600px;
+            height: 50px;
+        }
+        .seccioncontacto:hover{
+            cursor: pointer;
+            background-color: #000000;
+        }
+        
+        
+        
+        
+        
+    }
+    
+
+
+
+
+
+          
+
+
+
+@media (max-width: 1400px) {
+/*BOTON FLOTANTE*/
+.btn-flotante {
+    font-size: 20px; /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase; /* Texto en mayusculas */
+    font-weight: bold; /* Fuente en negrita o bold */
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Borde del boton */
+    letter-spacing: 2px; /* Espacio entre letras */
+    background-color: teal; /* Color de fondo */
+    padding: 5px 5px; /* Relleno del boton */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.btn-flotante:hover {
+    background-color: #000000; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 5px 5px teal;
+    transform: translateY(-7px);
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+
+}
+
+    .icons{
+        margin-top: -250px ;
+        margin-bottom: 100px;
+    }
+    ul.icons {
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+    }
+    
+        ul.icons li {
+            display: inline-block;
+            padding-left: 0.75em;
+        }
+    
+        ul.icons a {
+            -moz-transition: background-color 0.25s ease-in-out;
+            -webkit-transition: background-color 0.25s ease-in-out;
+            -ms-transition: background-color 0.25s ease-in-out;
+            transition: background-color 0.25s ease-in-out;
+            display: inline-block;
+            width: 40px;
+            height: 45px;
+            line-height: 2.8em;
+            text-align: center;
+            border: 0;
+            box-shadow: inset 10px 0 15px 2px teal;
+            border-radius: 100%;
+            color: #ffffff;
+        }
+    
+            ul.icons a:hover {
+                color: #fD5901;
+                background-color: teal;   
+            }
+            .iconsfinal{
+                margin-top: 10px;
+            }
+   
+
+    body{
+        background-color: black;
+    }
+
+    .imgfondo{
+        width: 100%;
+        height: auto;
+        background-size: cover !important;
+        margin-top: 150px;
+        margin-bottom: 250px;
+        
+}
+
+    .navbar{
+        background-color: black;
+        color: #ffffff;
+    }
+    .navbar-brand{
+        font-size: 45px;
+        margin-left: 0px;
+
+    }
+    .nav-link{
+         font-size: 35px;
+         margin-top: 0px;
+
+    }
+    .idioma{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 5px;
+    }
+    .idiomados{
+        font-size: 20px;
+        margin-left: -90px;
+        margin-top: 25px;
+    }
+    .section-videos{
+        margin-top: 0px;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .videoprincipal{
+        width: 85%;
+        height: 300px;
+    }
+
+    .videos{
+        margin-top: 0px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .videos p{
+        margin-bottom: 30px;
+    }
+    
+    .minivideos222{
+        margin-top: 20px;
+    }
+    
+    .btn{
+        width: 200px;
+        border: 2px solid teal;
+    }
+    .btn-up{
+        width: 55%;
+        height: 35px;
+        font-size: 15px;
+        padding: 1px;
+        background-color: transparent;
+        border: 5px solid teal;
+        margin-top: 100px;
+    }
+    .seccion-musica{
+        margin-top: 100px;
+    }
+    .seccion-musica h1{
+        font-size: 60px;
+    }
+    .seccion-musica p{
+        font-size: 40px;
+    }
+    .albums{
+        margin-top: 50px
+    }
+   
+    .albums p{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .imagenestemasal{
+        width: 275px;
+        border-radius: 25%;
+        margin-top: -30px;
+
+    }
+    
+    .seccionTRES2{
+        margin-top: 100px;
+    }
+    .seccionTRES2 p{
+        margin-top: 70px;
+        font-size: 20px;
+
+    }
+    h2{
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+    /*.imagenestemasal{
+        width: 130px;
+    }*/
+    .imagenestemas{
+        width: 250px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 5px 5px 0px 0px;
+    }
+    .imagenestemas:hover{
+        transform:translate3d(6px);
+    
+    }
+    .spotify{
+        width: 250px;
+        height: 72px;
+        margin-bottom: -50px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    .seccionalch{
+        margin-top: 100px;
+        
+    }
+    .seccionalch p{
+        margin-top: 70px;
+        font-size: 20px;
+
+    }
+    .dreamer{
+        margin-top: 0px;
+    }
+
+    .seccionchem{
+        margin-top: 100px;
+    }
+    .seccionchem h2{
+        font-size: 35px;
+    }
+    .seccionchem p{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+   /* .ends{
+        margin-top: 0px;
+    }*/
+
+    .secciongreed{
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .secciongreed p{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    
+    .secciongreed h2{
+        font-size: 35px;
+    }
+
+    .seccionartistas{
+        margin-top: 100px;
+        margin-bottom: 75px;
+    }
+    .seccionartistas h1{
+        font-size: 60px;
+    }
+    .seccionartistas p{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .imagenesartistas{
+        border-radius: 50%;
+        border: 2px solid #000000;
+        width: 375px;
+    }
+    .imagenesartistaslogo{
+        margin-top: 55px;
+        width: 375px;
+    }
+    .btn-art{
+        width: 55%;
+        background-color: transparent;
+        margin-top: 150px;
+        border-radius: 2%;
+        font-size: 25px;
+    }
+
+    .bio h1{
+        margin-top: 100px;
+        font-size: 70px;
+    }
+    .bio p{
+        font-size: 25px;
+    }
+    .imgbio{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .contacto{
+        margin-top: -40px;
+    }
+    .titulo{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .seccioncontacto{
+        background-color: transparent;
+        border: 3px solid teal;
+        width: 600px;
+        height: 50px;
+        margin-left: 25%;
+    }
+    .mensaje{
+        margin-left: 25%;
+        width: 600px;
+        height: 50px;
+    }
+    .seccioncontacto:hover{
+        cursor: pointer;
+        background-color: #000000;
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+@media (max-width: 1040px) {
+
+    /*BOTON FLOTANTE*/
+.btn-flotante {
+    font-size: 10px; /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase; /* Texto en mayusculas */
+    font-weight: bold; /* Fuente en negrita o bold */
+    color: #ffffff; /* Color del texto */
+    border-radius: 5px; /* Borde del boton */
+    letter-spacing: 2px; /* Espacio entre letras */
+    background-color: teal; /* Color de fondo */
+    padding: 5px 5px; /* Relleno del boton */
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.btn-flotante:hover {
+    background-color: #000000; /* Color de fondo al pasar el cursor */
+    box-shadow: 0px 5px 5px teal;
+    transform: translateY(-7px);
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+
+}
+
+    .icons{
+        margin-top: -250px ;
+        margin-bottom: 100px;
+    }
+    ul.icons {
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+    }
+    
+        ul.icons li {
+            display: inline-block;
+            padding-left: 0.75em;
+        }
+    
+        ul.icons a {
+            -moz-transition: background-color 0.25s ease-in-out;
+            -webkit-transition: background-color 0.25s ease-in-out;
+            -ms-transition: background-color 0.25s ease-in-out;
+            transition: background-color 0.25s ease-in-out;
+            display: inline-block;
+            width: 40px;
+            height: 45px;
+            line-height: 2.8em;
+            text-align: center;
+            border: 0;
+            box-shadow: inset 10px 0 15px 2px teal;
+            border-radius: 100%;
+            color: #ffffff;
+        }
+    
+            ul.icons a:hover {
+                color: #fD5901;
+                background-color: teal;   
+            }
+            
+            .iconsfinal{
+                margin-top: 10px;
+            }
+
+    body{
+        background-color: black;
+    }
+
+    .imgfondo{
+        width: 100%;
+        height: auto;
+        background-size: cover !important;
+        margin-top: 150px;
+        margin-bottom: 250px;
+        
+}
+
+    .navbar{
+        background-color: black;
+        color: #ffffff;
+    }
+    .navbar-brand{
+        font-size: 35px;
+        margin-left: 0px;
+
+    }
+    .nav-link{
+         font-size: 25px;
+         margin-top: 10px;
+    }
+    .idioma{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .idiomados{
+        font-size: 15px;
+        margin-left: -85px;
+        margin-top: 30px;
+    }
+    .section-videos{
+        margin-top: 0px;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .videoprincipal{
+        width: 85%;
+        height: 300px;
+    }
+
+    .videos{
+        margin-top: 0px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .videos p{
+        margin-bottom: 30px;
+    }
+    
+    .minivideos222{
+        margin-top: 20px;
+    }
+    
+    .btn{
+        width: 200px;
+        border: 2px solid teal;
+    }
+    .btn-up{
+        width: 55%;
+        height: 35px;
+        font-size: 15px;
+        padding: 1px;
+        background-color: transparent;
+        border: 5px solid teal;
+        margin-top: 100px;
+    }
+    .seccion-musica{
+        margin-top: 100px;
+    }
+    .seccion-musica h1{
+        font-size: 60px;
+    }
+    .seccion-musica p{
+        font-size: 40px;
+    }
+    .albums{
+        margin-top: 50px
+    }
+   
+    .albums p{
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .imagenestemasal{
+        width: 275px;
+        border-radius: 25%;
+        margin-top: -30px;
+
+    }
+    
+    .seccionTRES2{
+        margin-top: 100px;
+    }
+    .seccionTRES2 p{
+        margin-top: 70px;
+        font-size: 20px;
+
+    }
+    h2{
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+    /*.imagenestemasal{
+        width: 130px;
+    }*/
+    .imagenestemas{
+        width: 250px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 5px 5px 0px 0px;
+    }
+    .imagenestemas:hover{
+        transform:translate3d(6px);
+    
+    }
+    .spotify{
+        width: 250px;
+        height: 72px;
+        margin-bottom: -50px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    .seccionalch{
+        margin-top: 100px;
+        
+    }
+    .seccionalch p{
+        margin-top: 70px;
+        font-size: 20px;
+
+    }
+    .dreamer{
+        margin-top: 0px;
+    }
+
+    .seccionchem{
+        margin-top: 100px;
+    }
+    .seccionchem h2{
+        font-size: 35px;
+    }
+    .seccionchem p{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+   /* .ends{
+        margin-top: 0px;
+    }*/
+
+    .secciongreed{
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+    
+    .secciongreed p{
+        margin-top: 60px;
+        font-size: 20px;
+    }
+    
+    .secciongreed h2{
+        font-size: 35px;
+    }
+
+    .seccionartistas{
+        margin-top: 100px;
+        margin-bottom: 75px;
+    }
+    .seccionartistas h1{
+        font-size: 60px;
+    }
+    .seccionartistas p{
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    .imagenesartistas{
+        border-radius: 50%;
+        border: 2px solid #000000;
+        width: 375px;
+    }
+    .imagenesartistaslogo{
+        margin-top: 55px;
+        width: 375px;
+    }
+    .btn-art{
+        width: 55%;
+        background-color: transparent;
+        margin-top: 150px;
+        border-radius: 2%;
+        font-size: 25px;
+    }
+
+    .bio h1{
+        margin-top: 100px;
+        font-size: 70px;
+    }
+    .bio p{
+        font-size: 25px;
+    }
+    .imgbio{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .contacto{
+        margin-top: -40px;
+    }
+    .titulo{
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    .seccioncontacto{
+        background-color: transparent;
+        border: 3px solid teal;
+        width: 600px;
+        height: 50px;
+        margin-left: 18%;
+    }
+    .mensaje{
+        margin-left: 18%;
+        width: 600px;
+        height: 50px;
+    }
+    .seccioncontacto:hover{
+        cursor: pointer;
+        background-color: #000000;
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+@media (max-width: 736px) {
+
+    .icons{
+        margin-top: -200px ;
+        margin-bottom: 200px;
+    }
+    ul.icons {
+        cursor: default;
+        list-style: none;
+        padding-left: 0;
+    }
+    
+        ul.icons li {
+            display: inline-block;
+            padding-left: 0.75em;
+        }
+    
+        ul.icons a {
+            -moz-transition: background-color 0.25s ease-in-out;
+            -webkit-transition: background-color 0.25s ease-in-out;
+            -ms-transition: background-color 0.25s ease-in-out;
+            transition: background-color 0.25s ease-in-out;
+            display: inline-block;
+            width: 40px;
+            height: 45px;
+            line-height: 2.8em;
+            text-align: center;
+            border: 0;
+            box-shadow: inset 10px 0 15px 2px teal;
+            border-radius: 100%;
+            color: #ffffff;
+        }
+    
+            ul.icons a:hover {
+                color: #fD5901;
+                background-color: teal;   
+            }
+
+            .iconsfinal{
+                margin-top: 10px;
+            }
+    body{
+        background-color: black;
+    }
+
+    .imgfondo{
+        width: 100%;
+        height: auto;
+        background-size: cover !important;
+        margin-top: 150px;
+        margin-bottom: 250px;
+        
+}
+
+    .navbar{
+        background-color: black;
+        color: #ffffff;
+    }
+    .navbar-brand{
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+    .nav-link{
+         font-size: 15px;
+         margin-top: 0px;
+
+    }
+    .idioma{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .idiomados{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .section-videos{
+        margin-top: 25px;
+    }
+    .seccion-videos h1{
+        color: white;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .videoprincipal{
+        width: 85%;
+        height: auto;
+    }
+
+    .videos{
+        margin-top: 20px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .videos p{
+        margin-bottom: 30px;
+    }
+    
+    .minivideos222{
+        margin-top: 55px;
+    }
+    
+    .btn{
+        width: 200px;
+        border: 2px solid teal;
+    }
+    .btn-up{
+        width: 90%;
+        height: 35px;
+        font-size: 15px;
+        padding: 1px;
+        background-color: transparent;
+        border: 5px solid teal;
+        margin-top: 50px;
+
+    }
+    .seccion-musica{
+        margin-top: 100px;
+    }
+    .seccion-musica h1{
+        font-size: 60px;
+    }
+    .seccion-musica p{
+        font-size: 20px;
+    }
+    .albums{
+        margin-top: 50px
+    }
+   
+    .albums p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .imagenestemasal{
+        width: 150px;
+        border-radius: 25%;
+        margin-top: -30px;
+
+    }
+    
+    .seccionTRES2{
+        margin-top: 100px;
+    }
+    .seccionTRES2 p{
+        margin-top: 15px;
+        font-size: 15px;
+
+    }
+    h2{
+        margin-bottom: 5px;
+        font-size: 40px;
+    }
+    /*.imagenestemasal{
+        width: 130px;
+    }*/
+    .imagenestemas{
+        width: 130px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 5px 5px 0px 0px;
+    }
+    .imagenestemas:hover{
+        transform:translate3d(6px);
+    
+    }
+    .spotify{
+        width: 130px;
+        height: 72px;
+        margin-bottom: 0px;
+        border-radius: 0px 0px 5px 5px;
+    }
+    
+    
+    .seccionalch{
+        margin-top: 100px;
+        
+    }
+    .seccionalch p{
+        margin-top: 15px;
+        font-size: 15px;
+
+    }
+    .dreamer{
+        margin-top: 30px;
+    }
+
+    .seccionchem{
+        margin-top: 100px;
+    }
+    .seccionchem h2{
+        font-size: 35px;
+    }
+    .seccionchem p{
+        margin-top: 10px;
+        font-size: 15px;
+
+    }
+    .ends{
+        margin-top: 0px;
+    }
+
+    .secciongreed{
+        margin-top: 100px;
+    }
+    
+    .secciongreed p{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .secciongreed h2{
+        font-size: 35px;
+    }
+
+    .seccionartistas{
+        margin-top: 100px;
+        margin-bottom: 75px;
+    }
+    .seccionartistas h1{
+        font-size: 50px;
+    }
+    .seccionartistas p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .imagenesartistas{
+        border-radius: 50%;
+        border: 2px solid #000000;
+        width: 150px;
+    }
+    .imagenesartistaslogo{
+        margin-top: 45px;
+        width: 150px;
+    }
+    .btn-art{
+        width: 50%;
+        background-color: transparent;
+        margin-top: 50px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    
+    .bio h1{
+        margin-top: 100px;
+        font-size: 60px;
+    }
+    .bio p{
+        font-size: 15px;
+    }
+    .imgbio{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    
+    .contacto{
+        margin-top: -40px;
+    }
+    .titulo{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .seccioncontacto{
+        background-color: transparent;
+        border: 2px solid teal;
+        width: 300px;
+        height: 30px;
+        margin-left: 9%;
+    }
+    .mensaje{
+        margin-left: 9%;
+        width: 300px;
+        height: 20px;
+    }
+    .seccioncontacto:hover{
+        cursor: pointer;
+        background-color: #000000;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
