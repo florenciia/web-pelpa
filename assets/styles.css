@@ -746,22 +746,22 @@ h2{
             color: #ffffff;
         }
         .navbar-brand{
-            font-size: 45px;
+            font-size: 40px;
             margin-left: 0px;
     
         }
         .nav-link{
-             font-size: 35px;
-             margin-top: 0px;
+             font-size: 25px;
+             margin-top: 15px;
     
         }
         .idioma{
-            font-size: 20px;
-            margin-left: 50px;
+            font-size: 15px;
+            margin-left: 345px;
             margin-top: 5px;
         }
         .idiomados{
-            font-size: 20px;
+            font-size: 15px;
             margin-left: -90px;
             margin-top: 25px;
         }
@@ -1070,24 +1070,24 @@ a{
         color: #ffffff;
     }
     .navbar-brand{
-        font-size: 45px;
+        font-size: 40px;
         margin-left: 0px;
 
     }
     .nav-link{
-         font-size: 35px;
-         margin-top: 0px;
+         font-size: 25px;
+         margin-top: 15px;
 
     }
     .idioma{
-        font-size: 20px;
-        margin-left: 50px;
+        font-size: 15px;
+        margin-left: 0px;
         margin-top: 5px;
     }
     .idiomados{
-        font-size: 20px;
+        font-size: 15px;
         margin-left: -90px;
-        margin-top: 25px;
+        margin-top: 30px;
     }
     .section-videos{
         margin-top: 0px;
@@ -1276,23 +1276,19 @@ a{
     .seccioncontacto{
         background-color: transparent;
         border: 3px solid teal;
-        width: 600px;
+        width: 400px;
         height: 50px;
         margin-left: 25%;
     }
     .mensaje{
         margin-left: 25%;
-        width: 600px;
+        width: 400px;
         height: 50px;
     }
     .seccioncontacto:hover{
         cursor: pointer;
         background-color: #000000;
-    }
-    
-    
-    
-    
+    } 
     
 }
 
@@ -1399,12 +1395,12 @@ a{
     .idioma{
         font-size: 15px;
         margin-left: 0px;
-        margin-top: 5px;
+        margin-top: 35px;
     }
     .idiomados{
         font-size: 15px;
-        margin-left: -85px;
-        margin-top: 30px;
+        margin-left: 0px;
+        margin-top: 0px;
     }
     .section-videos{
         margin-top: 0px;
@@ -1593,24 +1589,19 @@ a{
     .seccioncontacto{
         background-color: transparent;
         border: 3px solid teal;
-        width: 600px;
+        width: 400px;
         height: 50px;
         margin-left: 18%;
     }
     .mensaje{
         margin-left: 18%;
-        width: 600px;
+        width: 400px;
         height: 50px;
     }
     .seccioncontacto:hover{
         cursor: pointer;
         background-color: #000000;
     }
-    
-    
-    
-    
-    
     
 }
 
@@ -1889,13 +1880,13 @@ a{
     .seccioncontacto{
         background-color: transparent;
         border: 2px solid teal;
-        width: 300px;
+        width: 400px;
         height: 30px;
         margin-left: 9%;
     }
     .mensaje{
         margin-left: 9%;
-        width: 300px;
+        width: 400px;
         height: 20px;
     }
     .seccioncontacto:hover{
